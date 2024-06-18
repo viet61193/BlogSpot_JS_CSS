@@ -32,14 +32,4 @@ $(document).ready(function () {
 
                 alert('Nội dung đã được sao chép vào clipboard.');
             });
-
-            function getCurrentYear() {
-                var d = new Date();
-                return d.getFullYear();
-            }
-
-            var el = document.getElementById('current-year');
-            if (el) {
-                el.innerHTML = getCurrentYear();
-            }
         });
