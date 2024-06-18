@@ -1,0 +1,107 @@
+body {
+     background: #eee;
+     margin: 0;
+     padding: 0;
+     color: #333;
+     font: normal normal 13px Arial,sans-serif;
+     transition: .4s;
+}
+ h1 {
+     font-size: 20px;
+     line-height: 30px;
+}
+ .container{
+     width: 95%;
+     max-width: 1024px;
+     margin: 50px auto;
+     min-height: 70vh;
+}
+ #fromeditor,#toeditor{
+     height:275px;
+     border:1px solid #DDD;
+     border-radius:4px;
+     border-bottom-right-radius:0;
+     margin-top:5px 
+}
+ .btn{
+     display:inline-block;
+     padding:6px 12px;
+     margin:10px 0;
+     font-size:14px;
+     font-weight:400;
+     line-height:1.5;
+     text-align:center;
+     border-radius:4px;
+     cursor: pointer;
+     border:0;
+}
+ .btn-primary{
+     color:#eee!important;
+     background-color:#005b53;
+}
+ .btn-primary:hover{
+     color:#fff;
+     background-color:#000;
+}
+ .btn-reset {
+     color: #eee;
+     background-color: #dd6666;
+}
+ .btn-copy {
+     color: #eee;
+     background-color: #337ab7;
+}
+ .btn-reset:hover, .btn-copy:hover{
+     color: #eee;
+     background-color: #333;
+}
+ .copyright-container {
+     position: relative;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: #ddd;
+     color: #333;
+     font-size: 15px;
+     text-align: center;
+     padding: 1px;
+}
+ a:link {
+     color: #005b53;
+     text-decoration: none;
+     cursor: pointer;
+}
+ .form-control {
+     display: block;
+     width: 100%;
+     height: 34px;
+     padding: 6px 12px;
+     font-size: 14px;
+     line-height: 1.42857143;
+     color: #555;
+     background-color: #fff;
+     background-image: none;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+ label {
+     display: inline-block;
+     max-width: 100%;
+     margin: 10px 0;
+     font-weight: 700;
+}
+ .col-sm-4{
+     width: 60%;
+     float: left;
+}
+ .col-sm-8{
+     width: 38%;
+     float: left;
+     margin-left: 2%;
+}
+ 
