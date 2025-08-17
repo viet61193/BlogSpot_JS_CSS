@@ -122,6 +122,20 @@
     a.appendChild(cap);
     return a;
   }
+  // Chỉ chạy khi là trang chủ
+function isHome() {
+  // Blogger trang chủ thường là / hoặc /index.html
+  const path = location.pathname.replace(/\/+$/, ''); 
+  return path === '' || path === '/' || path === '/index.html';
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {
+    if (isHome()) init();
+  }, { once: true });
+} else {
+  if (isHome()) init();
+}
 
   async function init() {
     const box = pickContainer();
